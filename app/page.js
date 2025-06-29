@@ -40,6 +40,7 @@ export default function Home() {
               src={hero}
               alt=""
               className="xl:-ml-32 max-h-screen block self-end w-full max-w-2xl object-contain"
+              loading="eager"
             ></Image>
           </div>
         </section>

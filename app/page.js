@@ -25,7 +25,7 @@ export default function Home() {
             <Image
               src={hero}
               alt=""
-              className="xl:-ml-32 block self-end w-full max-w-2xl object-contain"
+              className="xl:-ml-32 max-h-screen block self-end w-full max-w-2xl object-contain"
             ></Image>
           </div>
         </section>

@@ -45,7 +45,7 @@ export default function Home() {
         </section>
         <section className="px-[5%] flex justify-center relative bg-center bg-[url(/images/pages-managed.webp)] bg-fixed text-[#624a3c] py-16 md:py-32">
           <div className="flex flex-col gap-16 items-center w-full max-w-6xl relative z-10">
-            <h2 className="text-5xl">Pages I&aposve managed</h2>
+            <h2 className="text-5xl">Pages I&apos;ve managed</h2>
             <div>
               <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4">
                 <PageLink

@@ -9,7 +9,7 @@ export default function Home() {
         <section className="h-full px-[5%] flex justify-center text-white">
           <div className="h-full flex flex-col xl:flex-row max-w-6xl">
             <div className="h-full flex flex-col gap-4 justify-center pt-16 pb-8 md:py-32">
-              <h1 className="text-6xl">Rica Mia</h1>
+              <h1 className="text-6xl">Rica Mia Saet</h1>
               <p className="text-2xl">
                 Social Media Manager & Graphic Designer
               </p>

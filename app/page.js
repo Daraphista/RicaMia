@@ -21,8 +21,8 @@ export default function Home() {
     <div className="">
       <main className="">
         <section className="px-[5%] flex justify-center text-white bg-primary">
-          <div className="flex flex-col xl:flex-row w-full max-w-6xl">
-            <div className="flex flex-col gap-4 justify-center pt-16 lg:py-32">
+          <div className="flex flex-col xl:flex-row xl:w-full max-w-6xl">
+            <div className="flex flex-col gap-4 justify-center pt-16 pb-4 lg:py-32">
               <h1 className="text-6xl">Rica Mia Saet</h1>
               <p className="text-2xl">
                 Social Media Manager & Graphic Designer

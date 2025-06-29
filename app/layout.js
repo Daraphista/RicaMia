@@ -28,8 +28,8 @@ export const metadata = {
 
 export default function RootLayout({ children }) {
   return (
-    <html className="min-h-screen" lang="en">
-      <body className={`${garet.className} antialiased h-full`}>
+    <html lang="en">
+      <body className={`${garet.className} antialiased bg-primary`}>
         {children}
       </body>
     </html>

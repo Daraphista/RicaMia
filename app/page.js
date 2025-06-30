@@ -224,8 +224,8 @@ export default function Home() {
   );
 }
 
-const PageLink = ({ title, imageUrl, followerCount, link = "" }) => (
-  <Link href={link} className="relative block">
+const PageLink = ({ title, imageUrl, followerCount }) => (
+  <div className="relative block">
     <Image alt={title} src={imageUrl}></Image>
     <div className="absolute -bottom-4 right-8 lg:right-0 flex justify-center items-center w-[200px] h-[200px]">
       <h3 className="relative z-10 text-white flex flex-col items-center">
@@ -244,5 +244,5 @@ const PageLink = ({ title, imageUrl, followerCount, link = "" }) => (
         />
       </svg>
     </div>
-  </Link>
+  </div>
 );

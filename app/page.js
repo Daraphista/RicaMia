@@ -77,6 +77,12 @@ export default function Home() {
                 ></PageLink>
               </div>
             </div>
+            <Link
+              href="mailto:saetricamia28@gmail.com"
+              className="py-4 px-8 border border-[#624a3c] rounded-full hover:bg-[#624a3c] hover:text-white transition-all duration-300"
+            >
+              Work With Me
+            </Link>
           </div>
 
           <div className="absolute inset-0 bg-[#f8ede4]/90"></div>
@@ -189,6 +195,12 @@ export default function Home() {
                 </div>
               </div>
             </div>
+            <Link
+              href="mailto:saetricamia28@gmail.com"
+              className="py-4 px-8 border border-white rounded-full hover:bg-white hover:text-[#624a3c] transition-all duration-300"
+            >
+              Work With Me
+            </Link>
           </div>
         </section>
 

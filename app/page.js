@@ -16,6 +16,8 @@ import workSample6 from "../public/images/work-samples/work-sample-6.jpeg";
 import workSample7 from "../public/images/work-samples/work-sample-7.jpeg";
 import workSample8 from "../public/images/work-samples/work-sample-8.jpeg";
 
+import about from "../public/images/about.jpg";
+
 export default function Home() {
   return (
     <div className="">
@@ -44,7 +46,7 @@ export default function Home() {
             ></Image>
           </div>
         </section>
-        <section className="px-[5%] flex justify-center relative bg-center bg-[url(/images/pages-managed.webp)] bg-fixed text-[#624a3c] py-16 md:py-32">
+        <section className="text-center px-[5%] flex justify-center relative bg-center bg-[url(/images/pages-managed.webp)] bg-fixed text-[#624a3c] py-16 md:py-32">
           <div className="flex flex-col gap-16 items-center w-full max-w-6xl relative z-10">
             <h2 className="text-5xl">Pages I&apos;ve managed</h2>
             <div>
@@ -80,7 +82,7 @@ export default function Home() {
           <div className="absolute inset-0 bg-[#f8ede4]/90"></div>
         </section>
 
-        <section className="px-[5%] flex justify-center relative bg-[#ab7456] text-white py-16 md:py-32">
+        <section className="text-center px-[5%] flex justify-center relative bg-[#ab7456] text-white py-16 md:py-32">
           <div className="flex flex-col gap-16 items-center w-full max-w-6xl relative z-10">
             <h2 className="text-5xl">Work Samples</h2>
             <div className="p-16">
@@ -186,6 +188,33 @@ export default function Home() {
                   </svg>
                 </div>
               </div>
+            </div>
+          </div>
+        </section>
+
+        <section className="px-[5%] flex justify-center relative bg-[#f8ede4] text-[#624a3c] py-16 md:py-32">
+          <div className="grid grid-cols-1 md:grid-cols-2 gap-16 items-center w-full max-w-6xl relative z-10">
+            <div>
+              <Image alt="" className="rounded-xl" src={about}></Image>
+            </div>
+            <div className="flex flex-col items-start gap-4">
+              <h2 className="text-5xl">About Me</h2>
+              <p>
+                I am a passionate graphic designer and social media manager with
+                hands-on experience working with government offices, youth
+                organizations, and local community groups. I specialize in
+                modern, purpose-driven designs and content strategies that help
+                build connection, trust, and engagement online. I&apos;ve
+                successfully grown and managed three active Facebook pages for
+                our municipality and barangay, turning simple ideas into
+                powerful online impact.
+              </p>
+              <Link
+                href="mailto:saetricamia28@gmail.com"
+                className="py-4 px-8 border border-[#624a3c] rounded-full hover:bg-[#624a3c] hover:text-white transition-all duration-300"
+              >
+                Work With Me
+              </Link>
             </div>
           </div>
         </section>

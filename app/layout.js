@@ -28,10 +28,8 @@ export const metadata = {
 
 export default function RootLayout({ children }) {
   return (
-    <html lang="en">
-      <body className={`${garet.className} antialiased`}>
-        {children}
-      </body>
+    <html lang="en" className="scroll-smooth">
+      <body className={`${garet.className} antialiased`}>{children}</body>
     </html>
   );
 }

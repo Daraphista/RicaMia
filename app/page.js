@@ -18,6 +18,10 @@ import workSample8 from "../public/images/work-samples/work-sample-8.jpeg";
 
 import about from "../public/images/about.jpg";
 
+import ctaImage from "../public/images/cta-image.png";
+
+import Contact from "./components/Contact";
+
 export default function Home() {
   return (
     <div className="">
@@ -31,7 +35,7 @@ export default function Home() {
               </p>
               <div className="mt-10">
                 <Link
-                  href="mailto:saetricamia28@gmail.com"
+                  href="#contact"
                   className="py-4 px-8 border border-white rounded-full hover:bg-white hover:text-primary transition-all duration-300"
                 >
                   Work With Me
@@ -78,7 +82,7 @@ export default function Home() {
               </div>
             </div>
             <Link
-              href="mailto:saetricamia28@gmail.com"
+              href="#contact"
               className="py-4 px-8 border border-[#624a3c] rounded-full hover:bg-[#624a3c] hover:text-white transition-all duration-300"
             >
               Work With Me
@@ -196,7 +200,7 @@ export default function Home() {
               </div>
             </div>
             <Link
-              href="mailto:saetricamia28@gmail.com"
+              href="#contact"
               className="py-4 px-8 border border-white rounded-full hover:bg-white hover:text-[#624a3c] transition-all duration-300"
             >
               Work With Me
@@ -222,11 +226,29 @@ export default function Home() {
                 powerful online impact.
               </p>
               <Link
-                href="mailto:saetricamia28@gmail.com"
+                href="#contact"
                 className="py-4 px-8 border border-[#624a3c] rounded-full hover:bg-[#624a3c] hover:text-white transition-all duration-300"
               >
                 Work With Me
               </Link>
+            </div>
+          </div>
+        </section>
+
+        <section
+          id="contact"
+          className="relative text-white bg-[#624a3c] grid grid-cols-1 md:grid-cols-2"
+        >
+          <div className="flex justify-end pl-[10%] py-16 md:py-32">
+            <div className="max-w-xl w-full pr-8 flex flex-col items-start gap-12">
+              <h2 className="text-5xl">Work With Me</h2>
+
+              <Contact></Contact>
+            </div>
+          </div>
+          <div className="bg-[#E8BC95] flex pr-[10%]">
+            <div className="">
+              <Image className="h-full w-auto" alt="" src={ctaImage}></Image>
             </div>
           </div>
         </section>

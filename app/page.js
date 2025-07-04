@@ -237,18 +237,22 @@ export default function Home() {
 
         <section
           id="contact"
-          className="relative text-white bg-[#624a3c] grid grid-cols-1 md:grid-cols-2"
+          className="relative text-white bg-[#624a3c] grid grid-cols-1 lg:grid-cols-2"
         >
-          <div className="flex justify-end pl-[10%] py-16 md:py-32">
-            <div className="max-w-xl w-full pr-8 flex flex-col items-start gap-12">
-              <h2 className="text-5xl">Work With Me</h2>
+          <div className="flex justify-center lg:justify-end pl-[10%] py-16 md:py-32">
+            <div className="max-w-xl w-full pr-8 flex flex-col items-start text-center lg:text-start gap-12">
+              <h2 className="text-5xl w-full">Work With Me</h2>
 
               <Contact></Contact>
             </div>
           </div>
-          <div className="bg-[#E8BC95] flex pr-[10%]">
+          <div className="bg-[#E8BC95] lg:flex pr-[10%] hidden">
             <div className="">
-              <Image className="h-full w-auto" alt="" src={ctaImage}></Image>
+              <Image
+                className="h-full w-auto object-cover object-right"
+                alt=""
+                src={ctaImage}
+              ></Image>
             </div>
           </div>
         </section>
